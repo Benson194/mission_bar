@@ -3,15 +3,48 @@ Create mission bar with ease
 ![Mission bar demo](lib/assets/demo.png)
 
 ## Ussage
+```dart
+MissionBar(
+          value: 10,
+          min: 0,
+          max: 100,
+          iconWidth: 55,
+          iconList: [
+            Image(
+              image: AssetImage('assets/image/1.png'),
+              width: 60,
+            ),
+            Image(
+              image: AssetImage('assets/image/2.png'),
+              width: 60,
+            ),
+            Image(
+              image: AssetImage('assets/image/3.png'),
+              width: 60,
+            ),
+            Image(
+              image: AssetImage('assets/image/4.png'),
+              width: 60,
+            )
+          ],
+          sliderPadding: EdgeInsets.only(left: 53, right: 53),
+          sliderActiveColor: Colors.red,
+          sliderInActiveColor: Colors.grey,
+        )),
+     
+```
 
 ## Get Started
-1. Add the below dependencies to your pubspec
+1. Add the below dependency to your pubspec
+```
+dependencies:
+  mission_bar: ^1.0.0
+```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+Pull requests are welcome!

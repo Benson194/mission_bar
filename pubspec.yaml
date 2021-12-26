@@ -1,6 +1,8 @@
 name: mission_bar
 description: Create mission bar with ease.
 version: 1.0.0
+repository: https://github.com/Benson194/mission_bar
+
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

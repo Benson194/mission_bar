@@ -71,6 +71,7 @@ class MissionBar extends StatelessWidget {
 }
 
 class CustomTrackShape extends RoundedRectSliderTrackShape {
+  @override
   Rect getPreferredRect({
     required RenderBox parentBox,
     Offset offset = Offset.zero,
